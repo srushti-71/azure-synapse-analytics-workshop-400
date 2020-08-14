@@ -235,7 +235,7 @@ $rgLocation = (Get-AzResourceGroup -Name $resourceGroupName).Location
           
 if($rgLocation -like "eastus")
 {
-  $publicDataUrl = "https://l400eastus.blob.core.windows.net/"   
+  $publicDataUrl = "https://l400eastus.blob.core.windows.net/" 
 }
 else # Check for southcentralus
 {
